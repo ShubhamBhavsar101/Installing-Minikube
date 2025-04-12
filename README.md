@@ -1,1 +1,11 @@
 # Installing-Minikube
+
+1. Execute the following commands to install minikube on Linux
+curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+
+2. Commands after installation
+minikube start
+kubectl get nodes
+kubectl get pods -A
+kubectl create -f simple-pod.yaml
