@@ -1,0 +1,4 @@
+1. What is the Difference between Container, Pod and Deployment.
+2. What is the purpose of using a deployment?
+-> Pod does not provide auto healing and auto scaling.
+3. ReplicaSet is a controller for Pods.
