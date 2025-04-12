@@ -7,5 +7,10 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 2. Commands after installation
 minikube start
 kubectl get nodes
-kubectl get pods -A
+
+
 kubectl create -f simple-pod.yaml
+kubectl get pods -A
+kubectl get pods -o wide
+
+minikube ssh
