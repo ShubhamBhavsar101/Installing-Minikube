@@ -15,5 +15,6 @@ kubectl get pods -A
 kubectl get pods -o wide
 
 minikube ssh
-
 kubectl delete pod nginx
+
+kubectl logs nginx
