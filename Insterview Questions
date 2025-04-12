@@ -1,4 +1,8 @@
 1. What is the Difference between Container, Pod and Deployment.
 2. What is the purpose of using a deployment?
 -> Pod does not provide auto healing and auto scaling.
-3. ReplicaSet is a controller for Pods.
+3. ReplicaSet is a controller for Pods. It ensures that the number of pods remain the same automatically.
+4. Controller ensures that the state in yaml manifest is always matching with the actual state.
+5. What is the difference between Deployment and ReplicaSet?
+6. How do you list out all the resources that are available in particular namespace?
+7. 
