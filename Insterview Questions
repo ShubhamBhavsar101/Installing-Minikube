@@ -8,4 +8,6 @@
 7. Why do we need a service in Kubernetes?
 8. What is the ideal pod count?
 -> It depends on the number of users and number of requests a pod can handle.
-9. 
+9. Advantages of Service -
+-> Load Balancing, Service Discovery, Exposing application to Internet
+10. Types of Services -> ClusterIP, NodePort, LoadBalancer
