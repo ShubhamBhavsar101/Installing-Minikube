@@ -5,4 +5,7 @@
 4. Controller ensures that the state in yaml manifest is always matching with the actual state.
 5. What is the difference between Deployment and ReplicaSet?
 6. How do you list out all the resources that are available in particular namespace?
-7. 
+7. Why do we need a service in Kubernetes?
+8. What is the ideal pod count?
+-> It depends on the number of users and number of requests a pod can handle.
+9. 
