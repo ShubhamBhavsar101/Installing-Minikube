@@ -11,3 +11,9 @@
 9. Advantages of Service -
 -> Load Balancing, Service Discovery, Exposing application to Internet
 10. Types of Services -> ClusterIP, NodePort, LoadBalancer
+ClusterIP - Discovery and Loadbalancer
+NodePort - Access within Organization, who have access to nodes can access the application.
+Loadbalancer - Exposes your application to external world.
+11. What is CCM Cloud Control Manager
+-> Generate a public IP address using AWS Implementation.
+12. What are the main components of Kubernetes?
