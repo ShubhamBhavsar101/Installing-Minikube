@@ -7,20 +7,11 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 2. Install Kubectl
 sudo snap install kubectl --classic
 
-2. Commands after installation
-minikube start
+3. Install Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
 
-kubectl get nodes
-
-kubectl create -f simple-pod.yaml
-
-kubectl get pods -A
-kubectl get pods -o wide
-
-minikube ssh
-
-kubectl delete pod nginx
-
-kubectl logs nginx
-kubectl describe pod nginx
 
