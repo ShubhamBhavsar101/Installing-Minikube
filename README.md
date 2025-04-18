@@ -5,7 +5,7 @@ Follow these steps to set up Minikube along with required tools like `kubectl` a
 
 ---
 
-## 1. Install Minikube
+## Install Minikube
 
 ```bash
 curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
@@ -15,7 +15,7 @@ rm minikube-linux-amd64
 
 ---
 
-## 2. Install kubectl
+## Install kubectl
 
 ```bash
 sudo snap install kubectl --classic
@@ -23,7 +23,7 @@ sudo snap install kubectl --classic
 
 ---
 
-## 3. Install Docker
+## Install Docker
 
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -35,7 +35,7 @@ newgrp docker
 
 ---
 
-## 4. Set Up for `--driver=none` (Optional)
+## Set Up for `--driver=none` (Optional)
 
 ```bash
 sudo apt update
