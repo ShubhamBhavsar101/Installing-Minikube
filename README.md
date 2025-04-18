@@ -14,4 +14,16 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 
+4. To run with --driver=none
+sudo apt update
+sudo apt install iptables
+
+sudo apt install -y conntrack
+
+VERSION="v1.29.0"  # or change this to match your Kubernetes version
+curl -LO https://github.com/kubernetes-sigs/cri-tools/releases/download/${VERSION}/crictl-${VERSION}-linux-amd64.tar.gz
+sudo tar -C /usr/local/bin -xzf crictl-${VERSION}-linux-amd64.tar.gz
+rm crictl-${VERSION}-linux-amd64.tar.gz
+
+
 
