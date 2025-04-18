@@ -21,6 +21,12 @@ rm minikube-linux-amd64
 sudo snap install kubectl --classic
 ```
 
+### alias kubectl
+```bash
+alias k='kubectl'
+source ~/.bashrc
+```
+
 ---
 
 ## Install Docker
@@ -61,3 +67,5 @@ rm crictl-${VERSION}-linux-amd64.tar.gz
 sh <(curl -Ls https://kubeshark.co/install)  
 kubeshark tap  
 ```
+
+
