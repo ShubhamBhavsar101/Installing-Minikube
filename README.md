@@ -56,5 +56,8 @@ rm crictl-${VERSION}-linux-amd64.tar.gz
 
 ---
 
-You're now ready to start using Minikube!
-
+## Install Kubeshark
+```bash
+sh <(curl -Ls https://kubeshark.co/install)  
+kubeshark tap  
+```
