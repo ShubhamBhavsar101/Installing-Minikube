@@ -58,7 +58,3 @@ rm crictl-${VERSION}-linux-amd64.tar.gz
 
 You're now ready to start using Minikube!
 
----
-
-Let me know if you want to add a section for starting Minikube or troubleshooting tips!
-
