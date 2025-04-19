@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ingress-wildcard-host
+  name: ingress-example
 spec:
   rules:
   - host: "foo.bar.com"
@@ -11,6 +11,6 @@ spec:
         path: "/bar"
         backend:
           service:
-            name: service1
+            name: nginx-service
             port:
               number: 80
