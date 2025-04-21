@@ -1,4 +1,3 @@
-
 # Installing Minikube on Linux
 Follow these steps to set up Minikube along with required tools like `kubectl` and `Docker`.
 
