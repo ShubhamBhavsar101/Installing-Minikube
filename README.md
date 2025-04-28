@@ -19,7 +19,12 @@ sudo snap install kubectl --classic
 
 ### alias kubectl
 ```bash
+vi ~/.bashrc
+```
+```bash
 alias k='kubectl'
+```
+```bash
 source ~/.bashrc
 ```
 
